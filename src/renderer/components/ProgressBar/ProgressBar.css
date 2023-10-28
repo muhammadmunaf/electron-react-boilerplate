@@ -1,0 +1,22 @@
+.progress-bar {
+  position: relative;
+  height: 4px;
+  width: 100%;
+}
+
+.progress-bar-line {
+  position: absolute;
+  height: 100%;
+}
+
+.progress-bar-line-filled {
+  background-color: #ffffff; /* Adjust the color as desired */
+  height: 3px;
+}
+
+.progress-bar-line-static {
+  opacity: 0.25;
+  border-bottom: 2px solid #ffffff; /* Adjust the color as desired */
+  width: 100%;
+  bottom: 0px;
+}
